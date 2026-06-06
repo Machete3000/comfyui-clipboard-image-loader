@@ -14,3 +14,6 @@ dist/
 # OS
 Thumbs.db
 .DS_Store
+
+# Comfy Registry publish artifact
+node.zip
