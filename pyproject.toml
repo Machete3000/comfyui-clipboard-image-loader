@@ -1,0 +1,18 @@
+[project]
+name = "comfyui-clipboard-image-loader"
+description = "A LoadImage-style node that auto-detects the OS clipboard image, shows a live thumbnail, and outputs it as IMAGE/MASK."
+version = "1.0.0"
+license = { text = "MIT" }
+requires-python = ">=3.9"
+dependencies = [
+    "Pillow",
+    "pywin32; sys_platform == 'win32'",
+]
+
+[project.urls]
+Repository = "https://github.com/Machete3000/comfyui-clipboard-image-loader"
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "Clipboard Image Loader"
+Icon = ""
