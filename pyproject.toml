@@ -13,6 +13,6 @@ dependencies = [
 Repository = "https://github.com/Machete3000/comfyui-clipboard-image-loader"
 
 [tool.comfy]
-PublisherId = ""
+PublisherId = "machete3000"
 DisplayName = "Clipboard Image Loader"
 Icon = ""
